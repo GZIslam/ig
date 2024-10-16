@@ -3,10 +3,12 @@ import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Other from './pages/Other'
 
+export const basePath = "/ig"
+
 export const Router = () => (
     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/other" element={<Other />} />
+        <Route path={basePath + "/"} element={<Home />} />
+        <Route path={basePath + "/profile"} element={<Profile />} />
+        <Route path={basePath + "/other"} element={<Other />} />
     </Routes>
 )
