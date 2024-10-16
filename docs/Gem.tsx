@@ -25,4 +25,4 @@ export default function Model(props: any) {
   )
 }
 
-useGLTF.preload('/scene.gltf')
+useGLTF.preload('/gem.gltf')
