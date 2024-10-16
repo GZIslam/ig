@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+
+    img {
+        width: 44px;
+    }
+
+    ul {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+
+        li {
+            a {
+                text-decoration: none;
+                font-size: 22px;
+                color: #E9E9E9;
+
+            }
+
+            :hover {
+                border-bottom: 2px solid #E9E9E9;
+            }
+        }
+    }
+}
